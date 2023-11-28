@@ -3,10 +3,113 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>About - Harold Talavera</title>
+    <title>wanderlust - About</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #fff;
+        margin: 0 !important;
+      }
+
+      header {
+        background-color: #fff;
+        color: #ff5c35;
+        padding: 5px;
+        text-align: center;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #f78568;
+        padding: 5px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        font-size: 17px;
+        font-weight: 600;
+        transition: background-color 0.5s;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      h1 {
+        color: #ff5c35;
+      }
+
+      h2 {
+        text-align: center;
+        margin: 50px 0 30px 0;
+        color: #707070;
+      }
+
+      .content-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 80%;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+      }
+
+      .about-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .about {
+        background-color: #fff;
+        overflow: hidden;
+        width: 400px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .about img {
+        width: 100%;
+        max-width: 350px;
+        object-fit: cover;
+        margin: 0 auto;
+      }
+
+      .about-content {
+        padding: 10px;
+        flex: 1;
+      }
+
+      .about-title {
+        font-size: 22px;
+        margin-bottom: 8px;
+      }
+
+      .about-description {
+        text-align: justify;
+        color: #666;
+        line-height: 30px;
+      }
+
+      footer {
+        margin-top: 30px;
+        text-align: center;
+        padding: 15px 0;
+        background-color: #eaeaea;
+        color: #636363;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -15,9 +118,7 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="product_register.html">Product Registration</a>
       <a href="honesty.html">Honesty</a>
-      <a href="reflection.html">Reflection</a>
     </nav>
     <h2>About Me</h2>
     <div class="content-wrapper">
